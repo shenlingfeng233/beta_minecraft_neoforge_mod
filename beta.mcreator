@@ -1,0 +1,156 @@
+{
+  "mod_elements": [
+    {
+      "name": "ClockSheep",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clock_sheep",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beta/models/block/clock_sheep.json",
+          "src/main/resources/data/beta/loot_table/blocks/clock_sheep.json",
+          "src/main/java/net/mcreator/beta/block/ClockSheepBlock.java",
+          "src/main/resources/assets/beta/blockstates/clock_sheep.json",
+          "src/main/resources/assets/beta/models/item/clock_sheep.json"
+        ]
+      }
+    },
+    {
+      "name": "ClockSheepComing",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clock_sheep_coming",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beta/neoforge/biome_modifier/clock_sheep_coming_biome_modifier.json",
+          "src/main/java/net/mcreator/beta/client/renderer/ClockSheepComingRenderer.java",
+          "src/main/java/net/mcreator/beta/entity/ClockSheepComingEntity.java",
+          "src/main/resources/assets/beta/models/item/clock_sheep_coming_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "ClocksheepSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clocksheep_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beta/models/item/clocksheep_sword.json",
+          "src/main/java/net/mcreator/beta/item/ClocksheepSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ClockSheepPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clock_sheep_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beta/item/ClockSheepPickaxeItem.java",
+          "src/main/resources/assets/beta/models/item/clock_sheep_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "HeChenClocksheepSword",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "he_chen_clocksheep_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beta/recipe/crafting_table.json"
+        ]
+      }
+    },
+    {
+      "name": "HeChenClockSheepPickaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "he_chen_clock_sheep_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beta/recipe/he_chen_clock_sheep_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "HeChenClockSheepSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "he_chen_clock_sheep_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beta/recipe/he_chen_clock_sheep_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Shenlingfeng",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shenlingfeng",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beta/entity/ShenlingfengEntity.java",
+          "src/main/resources/assets/beta/models/item/shenlingfeng_spawn_egg.json",
+          "src/main/java/net/mcreator/beta/client/renderer/ShenlingfengRenderer.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:ClockSheepPickaxe"
+    ],
+    "ENTITIES:minecraft:illager": [
+      "~CUSTOM:Shenlingfeng"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:ClocksheepSword"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "entity.beta.shenlingfeng": "Shenlingfeng",
+      "item.beta.clock_sheep_pickaxe": "高端大气上档次的镐子",
+      "item.beta.clocksheep_sword": "高端大气上档次的剑",
+      "block.beta.clock_sheep": "Clock Sheep",
+      "entity.beta.clock_sheep_coming": "Clock Sheep",
+      "item.beta.shenlingfeng_spawn_egg": "Shenlingfeng Spawn Egg",
+      "item.beta.clock_sheep_coming_spawn_egg": "Clock Sheep Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "beta",
+    "modName": "beta",
+    "version": "1.0.0",
+    "author": "WCshe, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.beta"
+  },
+  "mcreatorVersion": 202400452410
+}
